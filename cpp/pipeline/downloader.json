@@ -4,7 +4,7 @@
 		"description": "download and make a dataset from github.com",
 		"activities": [
 			{
-				"name": "Azure Function1",
+				"name": "download",
 				"type": "AzureFunctionActivity",
 				"dependsOn": [],
 				"policy": {
