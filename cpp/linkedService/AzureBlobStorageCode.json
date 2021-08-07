@@ -1,0 +1,13 @@
+{
+	"name": "AzureBlobStorageCode",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "storge code example",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=mlgancode7828831447;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkdJVEhVQi1DT0RFX2MxMTcwZjIxLTY2Y2MtNGNmNy04YjQ0LWMzYjQ0YTAxMTA0OCINCn0="
+		}
+	}
+}
