@@ -1,0 +1,30 @@
+{
+	"name": "downloader",
+	"properties": {
+		"description": "download and make a dataset from github.com",
+		"activities": [
+			{
+				"name": "Azure Function1",
+				"type": "AzureFunctionActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"functionName": "download-code",
+					"method": "GET"
+				},
+				"linkedServiceName": {
+					"referenceName": "download",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
